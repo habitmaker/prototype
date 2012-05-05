@@ -18,12 +18,19 @@
 	<meta charset="utf-8">
 	<title><?php $page_title; ?></title>
 	
-	<link href='../../resource/css/style.css' />
-	
+	<!-- add stylesheets like this -->
+	<link rel='stylesheet' href='../../resource/css/style.css' />
+		
+	<!-- dont add other javascript here -->	
+	<script src="../../resource/js/modernizr-2.5.3.min.js"></script>
+
 </head>
 
 <body>
 	
+	<!-- start html development here -->
+	
+	<!-- Dont add anything else after this line -->
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
